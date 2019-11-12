@@ -35,7 +35,7 @@ def can_be_created_in_a_block(args = { :title  => "Home Alone", :release_date =>
 end
 
 def can_get_the_first_item_in_the_database
-  Movie.order(:id).first
+  # Movie.order(:id).first
   Movies.find(1)
 end
 
