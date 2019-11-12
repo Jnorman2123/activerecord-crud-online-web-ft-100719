@@ -39,7 +39,7 @@ def can_get_the_first_item_in_the_database
 end
 
 def can_get_the_last_item_in_the_database
-  Movie.order(:id).last
+  # Movie.order(:id).last
   Movie.order(:id :DESC).first
 end
 
